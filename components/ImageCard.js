@@ -52,7 +52,7 @@ constructor(props) {
                    margin: 10}}
               />
            </TouchableOpacity>
-          <Text>{this.props.authorName}</Text>
+          <Text style={{textAlign: 'center'}}>{this.props.authorName}</Text>
         </View>
     )
   }
